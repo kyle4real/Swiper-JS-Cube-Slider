@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    position: relative;
+    height: 100%;
+}
+
+body {
+    background-color: #eee;
+    font-size: 14px;
+    color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-container {
+    width: 640px;
+    height: 425px;
+    position: absolute;
+}
+
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+}
